@@ -1,0 +1,20 @@
+@import "../../../../src/assets/scss/variables";
+
+// The root element class
+// No styling should be applied to this class as the host element should almost always be the default display inline
+.global-component {
+
+    .content {
+        background: $background-color;
+        min-height: 100vh;
+    }
+
+    .title {
+        color: $primary;
+    }
+
+    .description {
+        color: $secondary;
+    }
+
+}

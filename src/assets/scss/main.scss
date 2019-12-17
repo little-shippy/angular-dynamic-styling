@@ -1,0 +1,13 @@
+// Import variables before Bootstrap
+@import "variables";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Import mixins
+
+// Import partials
+@import "partials/base";
+
+// Import component styling
+// This is annoying as all new components will need to be added here
+// However, if the components don't rely on themed variables such as bootstraps $primary then they can be encapsulated
+@import "../../../src/app/components/global/global.component";

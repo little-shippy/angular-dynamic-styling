@@ -1,0 +1,25 @@
+/**
+ * Put anything that is consistent between all environments here
+ */
+
+// Font
+$font-stack: 'Nunito', sans-serif;
+
+// Colours
+$primary:           red !default;
+$secondary:         blue !default;
+$background-color:  #efefef !default;
+$body-color:        #203b4c !default;
+$success:           #4cd964;
+$danger:            #ff3b30;
+
+// Change margin/padding steps
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: ($spacer * .25), // 4px
+    2: ($spacer * .5),  // 8px
+    3: $spacer,         // 16px
+    4: ($spacer * 2),   // 32px
+    5: ($spacer * 3),   // 48px
+);

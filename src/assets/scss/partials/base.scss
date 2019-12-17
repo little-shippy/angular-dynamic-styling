@@ -1,0 +1,16 @@
+/*
+ * Put anything in here that modifies base HTML elements
+ */
+@import "../variables";
+
+html {
+    font-size: 16px; // Bootstrap goes off rem which is the font-size of the root element
+}
+
+body {
+    font-family: $font-stack;
+}
+
+h1 {
+    font-weight: 700;
+}
